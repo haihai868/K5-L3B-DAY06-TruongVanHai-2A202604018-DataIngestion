@@ -1,0 +1,18 @@
+{
+  "records_audited": 15,
+  "strategy_A": {
+    "valid_metadata_count": "15/15",
+    "valid_metadata_rate": 1.0,
+    "filter_compliance": "N/A"
+  },
+  "strategy_B": {
+    "valid_metadata_count": "15/15",
+    "valid_metadata_rate": 1.0,
+    "filter_compliance": "N/A"
+  },
+  "strategy_C": {
+    "valid_metadata_count": "15/15",
+    "valid_metadata_rate": 1.0,
+    "filter_compliance": "1/1 (100% trên câu có filter q16, cả 3 chunk đều thuộc Chương VIII)"
+  }
+}

@@ -1,0 +1,1208 @@
+[
+  {
+    "question_id": "q01",
+    "split": "dev",
+    "question": "Một tín chỉ trong chương trình đào tạo được tính tương đương với bao nhiêu giờ tín chỉ?",
+    "gold_page": 3,
+    "gold_evidence": "Tín chỉ là đại lượng xác định khối lượng kiến thức, kỹ năng mà sinh viên tích lũy được từ học phần trong 15 giờ tín chỉ.",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p3_002",
+        "score": 0.7317,
+        "page": 3,
+        "is_hit": false,
+        "metadata": {
+          "chapter": "Chương I",
+          "page": 3,
+          "source": "Quy-che-3626-digital.pdf",
+          "category": "Quy_dinh_chung",
+          "chunk_len": 499,
+          "document_id": "vnu_uet_quy_che_3626"
+        },
+        "text_snippet": "à được xác định như sau:\na) Một giờ tín chỉ lý thuyết bằng 01 tiết lý thuyết; để tiếp thu được 1 giờ tín\nchỉ lý thuyết s..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p24_002",
+        "score": 0.7275,
+        "page": 24,
+        "is_hit": false,
+        "metadata": {
+          "document_id": "vnu_uet_quy_che_3626",
+          "chapter": "Chương III",
+          "category": "To_chuc_dao_tao",
+          "chunk_len": 500,
+          "page": 24,
+          "source": "Quy-che-3626-digital.pdf"
+        },
+        "text_snippet": "n\ncòn lại của hai chương trình đào tạo. Sinh viên tích lũy đủ số tín chỉ theo yêu cầu\ncủa cả hai chương trình đào tạo, k..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p3_003",
+        "score": 0.7266,
+        "page": 3,
+        "is_hit": false,
+        "metadata": {
+          "chapter": "Chương I",
+          "document_id": "vnu_uet_quy_che_3626",
+          "page": 3,
+          "category": "Quy_dinh_chung",
+          "chunk_len": 485,
+          "source": "Quy-che-3626-digital.pdf"
+        },
+        "text_snippet": "ập sinh viên phải dành ít nhất 2 tiết chuẩn bị cá nhân;\nc) Một giờ tín chỉ tự học bắt buộc bằng 3 tiết tự học bắt buộc v..."
+      }
+    ]
+  },
+  {
+    "question_id": "q02",
+    "split": "dev",
+    "question": "Thời gian tối đa để sinh viên hoàn thành khoá học đối với mỗi hình thức đào tạo được quy định như thế nào?",
+    "gold_page": 14,
+    "gold_evidence": "Thời gian tối đa để sinh viên hoàn thành khoá học không vượt quá 2 lần thời gian theo kế hoạch học tập chuẩn toàn khoá đối với mỗi hình thức đào tạo.",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p14_002",
+        "score": 0.8853,
+        "page": 14,
+        "is_hit": true,
+        "metadata": {
+          "chapter": "Chương III",
+          "document_id": "vnu_uet_quy_che_3626",
+          "chunk_len": 500,
+          "page": 14,
+          "source": "Quy-che-3626-digital.pdf",
+          "category": "To_chuc_dao_tao"
+        },
+        "text_snippet": "t quả học tập được bảo lưu, nhưng không vượt quá thời gian thiết kế\ncủa chương trình đào tạo chính quy tương ứng;\nd) Thờ..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p16_002",
+        "score": 0.8094,
+        "page": 16,
+        "is_hit": false,
+        "metadata": {
+          "document_id": "vnu_uet_quy_che_3626",
+          "source": "Quy-che-3626-digital.pdf",
+          "category": "To_chuc_dao_tao",
+          "page": 16,
+          "chunk_len": 500,
+          "chapter": "Chương III"
+        },
+        "text_snippet": "Nội. Một tiết học là 50 phút. Thời gian nghỉ giữa\nhai tiết học không quá 10 phút. Thời gian tổ chức những hoạt động đặc ..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p39_003",
+        "score": 0.8038,
+        "page": 39,
+        "is_hit": false,
+        "metadata": {
+          "document_id": "vnu_uet_quy_che_3626",
+          "chapter": "Chương VII",
+          "category": "Kiem_tra_danh_gia",
+          "source": "Quy-che-3626-digital.pdf",
+          "chunk_len": 500,
+          "page": 39
+        },
+        "text_snippet": "inh viên đủ điều kiện dự thi và phân phòng thi.\n5. Thủ trưởng đơn vị đào tạo quy định cụ thể quy trình coi thi và chấm t..."
+      }
+    ]
+  },
+  {
+    "question_id": "q03",
+    "split": "dev",
+    "question": "Trong mỗi học kỳ chính, khối lượng tín chỉ đăng ký học tối thiểu và tối đa theo kế hoạch học tập chuẩn là bao nhiêu?",
+    "gold_page": 17,
+    "gold_evidence": "khối lượng đăng ký tối thiểu không ít hơn 2/3 khối lượng trung bình một học kỳ theo kế hoạch học tập chuẩn",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p46_002",
+        "score": 0.7793,
+        "page": 46,
+        "is_hit": false,
+        "metadata": {
+          "category": "Kiem_tra_danh_gia",
+          "chapter": "Chương VII",
+          "page": 46,
+          "source": "Quy-che-3626-digital.pdf",
+          "document_id": "vnu_uet_quy_che_3626",
+          "chunk_len": 500
+        },
+        "text_snippet": "heo;\nc) Tổng số tín chỉ của các học phần bị điểm F còn tồn đọng tính từ đầu khoá\nhọc đến thời điểm xét đã quá 24 tín chỉ..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p17_004",
+        "score": 0.7735,
+        "page": 17,
+        "is_hit": true,
+        "metadata": {
+          "document_id": "vnu_uet_quy_che_3626",
+          "chapter": "Chương III",
+          "source": "Quy-che-3626-digital.pdf",
+          "chunk_len": 313,
+          "category": "To_chuc_dao_tao",
+          "page": 17
+        },
+        "text_snippet": "- an ninh, kỹ năng bổ trợ, cải thiện\nđiểm, tự chọn tự do) đảm bảo điều kiện khối lượng đăng ký tối thiểu không ít hơn\n2/..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p48_000",
+        "score": 0.7706,
+        "page": 48,
+        "is_hit": false,
+        "metadata": {
+          "category": "Tot_nghiep",
+          "document_id": "vnu_uet_quy_che_3626",
+          "chunk_len": 499,
+          "source": "Quy-che-3626-digital.pdf",
+          "page": 48,
+          "chapter": "Chương VIII"
+        },
+        "text_snippet": "48\n\nc) Tích lũy đủ số tín chỉ quy định trong chương trình đào tạo;\nd) Điểm trung bình chung tích lũy của khóa học đạt từ..."
+      }
+    ]
+  },
+  {
+    "question_id": "q04",
+    "split": "dev",
+    "question": "Sinh viên được chấp nhận rút bớt học phần đã đăng ký và được trả lại học phí trong khoảng thời gian nào?",
+    "gold_page": 21,
+    "gold_evidence": "Việc rút bớt học phần chỉ được chấp nhận trong 2 tuần kể từ đầu học kỳ chính, 1 tuần kể từ đầu học kỳ phụ và được trả lại học phí.",
+    "filter": {
+      "chapter": "Chương III"
+    },
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p21_001",
+        "score": 0.8093,
+        "page": 21,
+        "is_hit": false,
+        "metadata": {
+          "chapter": "Chương III",
+          "page": 21,
+          "document_id": "vnu_uet_quy_che_3626",
+          "chunk_len": 500,
+          "category": "To_chuc_dao_tao",
+          "source": "Quy-che-3626-digital.pdf"
+        },
+        "text_snippet": "học phần chỉ được chấp nhận trong 2 tuần kể từ đầu học kỳ\nchính, 1 tuần kể từ đầu học kỳ phụ và được trả lại học phí. Ng..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p19_001",
+        "score": 0.7008,
+        "page": 19,
+        "is_hit": false,
+        "metadata": {
+          "document_id": "vnu_uet_quy_che_3626",
+          "category": "To_chuc_dao_tao",
+          "chunk_len": 500,
+          "source": "Quy-che-3626-digital.pdf",
+          "page": 19,
+          "chapter": "Chương III"
+        },
+        "text_snippet": "điều kiện) để cải\nthiện điểm trung bình chung tích lũy. Điểm học phần cũ bị hủy bỏ khi việc đăng\nký học lại để cải thiện..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p47_000",
+        "score": 0.6989,
+        "page": 47,
+        "is_hit": false,
+        "metadata": {
+          "chapter": "Chương VIII",
+          "page": 47,
+          "chunk_len": 500,
+          "category": "Tot_nghiep",
+          "source": "Quy-che-3626-digital.pdf",
+          "document_id": "vnu_uet_quy_che_3626"
+        },
+        "text_snippet": "47\n\nc) Bị kỷ luật lần thứ hai vì lý do thi hộ hoặc nhờ người thi hộ theo quy định\ntại điểm d, khoản 4, Điều 35 của Quy c..."
+      }
+    ]
+  },
+  {
+    "question_id": "q05",
+    "split": "dev",
+    "question": "Điều kiện về điểm trung bình chung tích lũy để sinh viên được đăng ký học chương trình đào tạo thứ hai là gì?",
+    "gold_page": 23,
+    "gold_evidence": "Điểm trung bình chung tất cả các học phần tính từ đầu khóa học đến thời điểm đăng ký học chương trình đào tạo thứ hai đạt từ 2,5 trở lên và đáp ứng ngưỡng bảo đảm chất lượng đầu vào của chương trình thứ hai trong năm tuyển sinh hoặc điểm trung bình chung tất cả các học phần tính từ đầu khóa học đến thời điểm đăng ký học chương trình đào tạo thứ hai đạt từ 2,0 trở lên và đáp ứng điều kiện trúng tuyển của chương trình thứ hai trong năm tuyển sinh;",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p46_000",
+        "score": 0.8481,
+        "page": 46,
+        "is_hit": false,
+        "metadata": {
+          "document_id": "vnu_uet_quy_che_3626",
+          "category": "Kiem_tra_danh_gia",
+          "source": "Quy-che-3626-digital.pdf",
+          "chapter": "Chương VII",
+          "chunk_len": 499,
+          "page": 46
+        },
+        "text_snippet": "46\n\nĐiểm trung bình chung các học phần được dùng để đăng ký học cùng lúc\nchương trình đào tạo thứ hai, chuyển đổi sinh v..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p23_004",
+        "score": 0.829,
+        "page": 23,
+        "is_hit": false,
+        "metadata": {
+          "page": 23,
+          "chunk_len": 364,
+          "category": "To_chuc_dao_tao",
+          "chapter": "Chương III",
+          "document_id": "vnu_uet_quy_che_3626",
+          "source": "Quy-che-3626-digital.pdf"
+        },
+        "text_snippet": "học chương trình đào tạo thứ hai đạt từ 2,5 trở lên và đáp ứng ngưỡng\nbảo đảm chất lượng đầu vào của chương trình thứ ha..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p24_002",
+        "score": 0.7977,
+        "page": 24,
+        "is_hit": false,
+        "metadata": {
+          "document_id": "vnu_uet_quy_che_3626",
+          "source": "Quy-che-3626-digital.pdf",
+          "chapter": "Chương III",
+          "page": 24,
+          "chunk_len": 500,
+          "category": "To_chuc_dao_tao"
+        },
+        "text_snippet": "n\ncòn lại của hai chương trình đào tạo. Sinh viên tích lũy đủ số tín chỉ theo yêu cầu\ncủa cả hai chương trình đào tạo, k..."
+      }
+    ]
+  },
+  {
+    "question_id": "q06",
+    "split": "dev",
+    "question": "Sinh viên hoàn thành năm học thứ mấy thì được xem xét chuyển sang học ngành học khác?",
+    "gold_page": 28,
+    "gold_evidence": "Sinh viên hoàn thành năm học thứ nhất được xem xét chuyển sang học một ngành học khác nếu đáp ứng",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p28_000",
+        "score": 0.7906,
+        "page": 28,
+        "is_hit": true,
+        "metadata": {
+          "page": 28,
+          "category": "To_chuc_dao_tao",
+          "chunk_len": 500,
+          "source": "Quy-che-3626-digital.pdf",
+          "chapter": "Chương III",
+          "document_id": "vnu_uet_quy_che_3626"
+        },
+        "text_snippet": "28\n\nĐiều 28. Chuyển ngành học\n1. Sinh viên hoàn thành năm học thứ nhất được xem xét chuyển sang học\nmột ngành học khác n..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p20_000",
+        "score": 0.6716,
+        "page": 20,
+        "is_hit": false,
+        "metadata": {
+          "page": 20,
+          "source": "Quy-che-3626-digital.pdf",
+          "document_id": "vnu_uet_quy_che_3626",
+          "chunk_len": 500,
+          "category": "To_chuc_dao_tao",
+          "chapter": "Chương III"
+        },
+        "text_snippet": "20\n\nc) Sinh viên không đ ủ điều kiện làm khóa luận hoặc đồ án tốt nghiệp sẽ\nđăng ký học các học phần thay thế do thủ trư..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p27_000",
+        "score": 0.6635,
+        "page": 27,
+        "is_hit": false,
+        "metadata": {
+          "chapter": "Chương III",
+          "category": "To_chuc_dao_tao",
+          "page": 27,
+          "chunk_len": 499,
+          "source": "Quy-che-3626-digital.pdf",
+          "document_id": "vnu_uet_quy_che_3626"
+        },
+        "text_snippet": "27\n\n- Có điểm trung bình chung các học phần tính đến thời điểm xét, đạt dưới 2,5;\n- Bị kỷ luật trong thời gian học từ mứ..."
+      }
+    ]
+  },
+  {
+    "question_id": "q07",
+    "split": "dev",
+    "question": "Điểm thưởng thành tích nghiên cứu khoa học của sinh viên có được dùng để xếp loại học lực hoặc xác định hạng tốt nghiệp không?",
+    "gold_page": 31,
+    "gold_evidence": "không dùng để xếp loại học lực hoặc xác định hạng tốt nghiệp.",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p31_000",
+        "score": 0.888,
+        "page": 31,
+        "is_hit": true,
+        "metadata": {
+          "chapter": "Chương IV",
+          "chunk_len": 500,
+          "page": 31,
+          "document_id": "vnu_uet_quy_che_3626",
+          "category": "Nghien_cuu_khoa_hoc",
+          "source": "Quy-che-3626-digital.pdf"
+        },
+        "text_snippet": "31\n\nĐiều 32. Điểm thưởng thành tích nghiên cứu khoa học của sinh viên\n1. Điểm thưởng cho những công trình nghiên cứu kho..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p31_002",
+        "score": 0.8597,
+        "page": 31,
+        "is_hit": false,
+        "metadata": {
+          "category": "Nghien_cuu_khoa_hoc",
+          "chunk_len": 500,
+          "document_id": "vnu_uet_quy_che_3626",
+          "source": "Quy-che-3626-digital.pdf",
+          "page": 31,
+          "chapter": "Chương IV"
+        },
+        "text_snippet": "không quá 0,2 điểm, mức điểm cụ thể do thủ trưởng đơn vị đào tạo quy định\nbằng văn bản.\n3. Nếu sinh viên đạt nhiều giải ..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p49_000",
+        "score": 0.7159,
+        "page": 49,
+        "is_hit": false,
+        "metadata": {
+          "document_id": "vnu_uet_quy_che_3626",
+          "category": "Tot_nghiep",
+          "chapter": "Chương VIII",
+          "source": "Quy-che-3626-digital.pdf",
+          "chunk_len": 500,
+          "page": 49
+        },
+        "text_snippet": "49\n\n3. Bằng tốt nghiệp đại học được cấp theo ngành học, trong bằng có ghi rõ\ntên ngành học, hình th ức đào tạo, chương t..."
+      }
+    ]
+  },
+  {
+    "question_id": "q08",
+    "split": "dev",
+    "question": "Giáo viên chủ nhiệm, cố vấn học tập có trách nhiệm gì đối với kế hoạch học tập của sinh viên?",
+    "gold_page": 34,
+    "gold_evidence": "Nắm vững chương trình đào tạo, hướng dẫn sinh viên xây dựng kế hoạch học tập, lựa chọn đăng ký các học phần phù hợp với điều kiện học tập của sinh viên và mục tiêu, yêu cầu của chương trình đào tạo;",
+    "filter": {
+      "chapter": "Chương V"
+    },
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p34_002",
+        "score": 0.836,
+        "page": 34,
+        "is_hit": true,
+        "metadata": {
+          "chapter": "Chương V",
+          "document_id": "vnu_uet_quy_che_3626",
+          "category": "Giang_vien_Co_van",
+          "chunk_len": 500,
+          "source": "Quy-che-3626-digital.pdf",
+          "page": 34
+        },
+        "text_snippet": "ủa\ngiáo viên chủ nhiệm, cố vấn học tập.\n3. Trách nhiệm của giáo viên chủ nhiệm, cố vấn học tập\na) Nắm vững chương trình ..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p34_001",
+        "score": 0.797,
+        "page": 34,
+        "is_hit": false,
+        "metadata": {
+          "chunk_len": 499,
+          "chapter": "Chương V",
+          "document_id": "vnu_uet_quy_che_3626",
+          "source": "Quy-che-3626-digital.pdf",
+          "category": "Giang_vien_Co_van",
+          "page": 34
+        },
+        "text_snippet": "Điều 34. Giáo viên chủ nhiệm, cố vấn học tập\n1. Giáo viên chủ nhiệm là giảng viên đã hết thời gian tập sự theo quy định,..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p4_002",
+        "score": 0.7017,
+        "page": 4,
+        "is_hit": false,
+        "metadata": {
+          "chapter": "Chương I",
+          "page": 4,
+          "source": "Quy-che-3626-digital.pdf",
+          "chunk_len": 499,
+          "document_id": "vnu_uet_quy_che_3626",
+          "category": "Quy_dinh_chung"
+        },
+        "text_snippet": "chương trình đào tạo là học phần sinh viên bắt\nbuộc phải tích lũy trong chương trình đào tạo.\n3. Đề cương học phần\nĐề cư..."
+      }
+    ]
+  },
+  {
+    "question_id": "q09",
+    "split": "dev",
+    "question": "Đối với các học phần bắt buộc trong chương trình đào tạo, nếu bị điểm F sinh viên phải xử lý thế nào?",
+    "gold_page": 19,
+    "gold_evidence": "Đối với các học phần bắt buộc, nếu bị điểm F, sinh viên phải đăng ký học lại học phần đó;",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p26_004",
+        "score": 0.8053,
+        "page": 26,
+        "is_hit": false,
+        "metadata": {
+          "chapter": "Chương III",
+          "category": "To_chuc_dao_tao",
+          "source": "Quy-che-3626-digital.pdf",
+          "page": 26,
+          "chunk_len": 407,
+          "document_id": "vnu_uet_quy_che_3626"
+        },
+        "text_snippet": "liệu\ntham khảo cho sinh viên.\n3. Chuyển sinh viên đang học chương trình đào tài năng, chất lượng cao sang\nhọc chương trì..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p27_001",
+        "score": 0.7887,
+        "page": 27,
+        "is_hit": false,
+        "metadata": {
+          "source": "Quy-che-3626-digital.pdf",
+          "chunk_len": 499,
+          "document_id": "vnu_uet_quy_che_3626",
+          "category": "To_chuc_dao_tao",
+          "page": 27,
+          "chapter": "Chương III"
+        },
+        "text_snippet": "ay\nthế bằng học ph ần khác trong chương trình đào tạo chuẩn hoặc xác nhận là học\nphần tự chọn tự do.\n4. Bổ sung sinh viê..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p16_004",
+        "score": 0.7879,
+        "page": 16,
+        "is_hit": false,
+        "metadata": {
+          "page": 16,
+          "document_id": "vnu_uet_quy_che_3626",
+          "chunk_len": 184,
+          "chapter": "Chương III",
+          "source": "Quy-che-3626-digital.pdf",
+          "category": "To_chuc_dao_tao"
+        },
+        "text_snippet": "nh đào tạo\nmà sinh viên đã theo họ c trước khi nghỉ học tạm thời, t hủ trưởng đơn vị đào tạo\nquyết định cho sinh viên đư..."
+      }
+    ]
+  },
+  {
+    "question_id": "q10",
+    "split": "dev",
+    "question": "Theo thang điểm 4, mức điểm chữ B được quy đổi tương ứng với bao nhiêu điểm số?",
+    "gold_page": 45,
+    "gold_evidence": "B tương ứng với 3,0",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p44_004",
+        "score": 0.7588,
+        "page": 44,
+        "is_hit": false,
+        "metadata": {
+          "document_id": "vnu_uet_quy_che_3626",
+          "chapter": "Chương VII",
+          "chunk_len": 78,
+          "category": "Kiem_tra_danh_gia",
+          "page": 44,
+          "source": "Quy-che-3626-digital.pdf"
+        },
+        "text_snippet": "ng tích lũy, mức điểm chữ của mỗi học phần được quy\nđổi thành điểm số như sau:..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p45_000",
+        "score": 0.7148,
+        "page": 45,
+        "is_hit": true,
+        "metadata": {
+          "page": 45,
+          "chapter": "Chương VII",
+          "category": "Kiem_tra_danh_gia",
+          "source": "Quy-che-3626-digital.pdf",
+          "document_id": "vnu_uet_quy_che_3626",
+          "chunk_len": 500
+        },
+        "text_snippet": "45\n\nA+ tương ứng với 4,0\nA tương ứng với 3,7\nB+ tương ứng với 3,5\nB tương ứng với 3,0\nC+ tương ứng với 2,5\nC tương ứng v..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p43_000",
+        "score": 0.6523,
+        "page": 43,
+        "is_hit": false,
+        "metadata": {
+          "chapter": "Chương VII",
+          "document_id": "vnu_uet_quy_che_3626",
+          "page": 43,
+          "chunk_len": 500,
+          "source": "Quy-che-3626-digital.pdf",
+          "category": "Kiem_tra_danh_gia"
+        },
+        "text_snippet": "43\n\n8,0 – 8,4 tương ứng với B+\n7,0 – 7,9 tương ứng với B\n6,5 – 6,9 tương ứng với C+\n5,5 – 6,4 tương ứng với C\n5,0 – 5,4 ..."
+      }
+    ]
+  },
+  {
+    "question_id": "q11",
+    "split": "dev",
+    "question": "Sinh viên bị cảnh báo học vụ khi tổng số tín chỉ của các học phần bị điểm F tồn đọng quá bao nhiêu tín chỉ?",
+    "gold_page": 46,
+    "gold_evidence": "Tổng số tín chỉ của các học phần bị điểm F còn tồn đọng tính từ đầu khoá học đến thời điểm xét đã quá 24 tín chỉ",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p46_002",
+        "score": 0.8821,
+        "page": 46,
+        "is_hit": true,
+        "metadata": {
+          "page": 46,
+          "chapter": "Chương VII",
+          "document_id": "vnu_uet_quy_che_3626",
+          "source": "Quy-che-3626-digital.pdf",
+          "chunk_len": 500,
+          "category": "Kiem_tra_danh_gia"
+        },
+        "text_snippet": "heo;\nc) Tổng số tín chỉ của các học phần bị điểm F còn tồn đọng tính từ đầu khoá\nhọc đến thời điểm xét đã quá 24 tín chỉ..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p46_001",
+        "score": 0.7932,
+        "page": 46,
+        "is_hit": false,
+        "metadata": {
+          "source": "Quy-che-3626-digital.pdf",
+          "page": 46,
+          "chapter": "Chương VII",
+          "document_id": "vnu_uet_quy_che_3626",
+          "category": "Kiem_tra_danh_gia",
+          "chunk_len": 500
+        },
+        "text_snippet": "o học vụ\nĐơn vị đào tạo thực hiện cảnh báo học vụ theo từng học kỳ cho sinh viên có\nkết quả học tập như sau:\na) Điểm tru..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p44_002",
+        "score": 0.7629,
+        "page": 44,
+        "is_hit": false,
+        "metadata": {
+          "chunk_len": 500,
+          "category": "Kiem_tra_danh_gia",
+          "chapter": "Chương VII",
+          "source": "Quy-che-3626-digital.pdf",
+          "document_id": "vnu_uet_quy_che_3626",
+          "page": 44
+        },
+        "text_snippet": "rong học kỳ.\n2. Khối lượng kiến th ức tích lũy là t ổng số tín chỉ c ủa những học ph ần đã\nđược đánh giá loại đạt, tính ..."
+      }
+    ]
+  },
+  {
+    "question_id": "q12",
+    "split": "dev",
+    "question": "Sinh viên không đăng ký học bao nhiêu học kỳ liên tiếp thì bị buộc thôi học?",
+    "gold_page": 47,
+    "gold_evidence": "Không đăng ký học 2 học kỳ liên tiếp;",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p21_000",
+        "score": 0.75,
+        "page": 21,
+        "is_hit": false,
+        "metadata": {
+          "chapter": "Chương III",
+          "category": "To_chuc_dao_tao",
+          "page": 21,
+          "document_id": "vnu_uet_quy_che_3626",
+          "source": "Quy-che-3626-digital.pdf",
+          "chunk_len": 500
+        },
+        "text_snippet": "21\n\nĐiều 23. Rút bớt học phần đã đăng ký\n1. Việc rút bớt học phần áp dụng cho các trường hợp:\na) Theo nhu cầu và khả năn..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p39_000",
+        "score": 0.724,
+        "page": 39,
+        "is_hit": false,
+        "metadata": {
+          "chapter": "Chương VII",
+          "document_id": "vnu_uet_quy_che_3626",
+          "chunk_len": 500,
+          "source": "Quy-che-3626-digital.pdf",
+          "category": "Kiem_tra_danh_gia",
+          "page": 39
+        },
+        "text_snippet": "39\n\nSinh viên chưa có điểm đánh giá bộ phận vì có lý do chính đáng được Chủ\nnhiệm Khoa/Bộ môn và giảng viên đồng ý tổ ch..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p21_001",
+        "score": 0.7157,
+        "page": 21,
+        "is_hit": false,
+        "metadata": {
+          "chapter": "Chương III",
+          "source": "Quy-che-3626-digital.pdf",
+          "document_id": "vnu_uet_quy_che_3626",
+          "category": "To_chuc_dao_tao",
+          "chunk_len": 500,
+          "page": 21
+        },
+        "text_snippet": "học phần chỉ được chấp nhận trong 2 tuần kể từ đầu học kỳ\nchính, 1 tuần kể từ đầu học kỳ phụ và được trả lại học phí. Ng..."
+      }
+    ]
+  },
+  {
+    "question_id": "q13",
+    "split": "dev",
+    "question": "Để xếp loại học lực Giỏi sau mỗi học kỳ, điểm trung bình chung học kỳ của sinh viên cần đạt trong khoảng nào?",
+    "gold_page": 47,
+    "gold_evidence": "Giỏi: Điểm trung bình chung học kỳ từ 3,20 đến 3,59",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p47_002",
+        "score": 0.8277,
+        "page": 47,
+        "is_hit": true,
+        "metadata": {
+          "document_id": "vnu_uet_quy_che_3626",
+          "chapter": "Chương VIII",
+          "page": 47,
+          "source": "Quy-che-3626-digital.pdf",
+          "chunk_len": 500,
+          "category": "Tot_nghiep"
+        },
+        "text_snippet": "nh viên được xếp thành các loại sau:\na) Xuất sắc: Điểm trung bình chung học kỳ từ 3,60 đến 4,00\nb) Giỏi: Điểm trung bình..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p44_003",
+        "score": 0.8101,
+        "page": 44,
+        "is_hit": false,
+        "metadata": {
+          "chunk_len": 499,
+          "chapter": "Chương VII",
+          "document_id": "vnu_uet_quy_che_3626",
+          "category": "Kiem_tra_danh_gia",
+          "source": "Quy-che-3626-digital.pdf",
+          "page": 44
+        },
+        "text_snippet": "học từ đ ầu khóa học cho tới thời\nđiểm xem xét (bao gồm cả các học phần được đánh giá loại đạt và không đạt).\n5. Điểm tr..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p44_002",
+        "score": 0.8007,
+        "page": 44,
+        "is_hit": false,
+        "metadata": {
+          "chunk_len": 500,
+          "category": "Kiem_tra_danh_gia",
+          "chapter": "Chương VII",
+          "document_id": "vnu_uet_quy_che_3626",
+          "source": "Quy-che-3626-digital.pdf",
+          "page": 44
+        },
+        "text_snippet": "rong học kỳ.\n2. Khối lượng kiến th ức tích lũy là t ổng số tín chỉ c ủa những học ph ần đã\nđược đánh giá loại đạt, tính ..."
+      }
+    ]
+  },
+  {
+    "question_id": "q14",
+    "split": "dev",
+    "question": "Học phần khóa luận, đồ án tốt nghiệp có thời lượng quy định cụ thể là bao nhiêu tín chỉ?",
+    "gold_page": 4,
+    "gold_evidence": "Khóa luận, đồ án tốt nghiệp là học phần thuộc khối kiến thức bắt buộc, có thời lượng từ 5 đến 10 tín chỉ",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p24_002",
+        "score": 0.7712,
+        "page": 24,
+        "is_hit": false,
+        "metadata": {
+          "document_id": "vnu_uet_quy_che_3626",
+          "source": "Quy-che-3626-digital.pdf",
+          "chunk_len": 500,
+          "page": 24,
+          "category": "To_chuc_dao_tao",
+          "chapter": "Chương III"
+        },
+        "text_snippet": "n\ncòn lại của hai chương trình đào tạo. Sinh viên tích lũy đủ số tín chỉ theo yêu cầu\ncủa cả hai chương trình đào tạo, k..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p14_002",
+        "score": 0.7656,
+        "page": 14,
+        "is_hit": false,
+        "metadata": {
+          "page": 14,
+          "source": "Quy-che-3626-digital.pdf",
+          "chapter": "Chương III",
+          "category": "To_chuc_dao_tao",
+          "document_id": "vnu_uet_quy_che_3626",
+          "chunk_len": 500
+        },
+        "text_snippet": "t quả học tập được bảo lưu, nhưng không vượt quá thời gian thiết kế\ncủa chương trình đào tạo chính quy tương ứng;\nd) Thờ..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p18_003",
+        "score": 0.7616,
+        "page": 18,
+        "is_hit": false,
+        "metadata": {
+          "page": 18,
+          "chunk_len": 500,
+          "category": "To_chuc_dao_tao",
+          "source": "Quy-che-3626-digital.pdf",
+          "chapter": "Chương III",
+          "document_id": "vnu_uet_quy_che_3626"
+        },
+        "text_snippet": "họn tự do trong chương trình đào tạo.\nNhững học phần tự chọn tự do đạt điểm D trở lên được ghi trong phụ lục văn bằng\ncấ..."
+      }
+    ]
+  },
+  {
+    "question_id": "q15",
+    "split": "dev",
+    "question": "Sinh viên vi phạm kỷ luật ở lần thứ mấy vì lý do thi hộ hoặc nhờ người thi hộ thì bị buộc thôi học?",
+    "gold_page": 47,
+    "gold_evidence": "Bị kỷ luật lần thứ hai vì lý do thi hộ hoặc nhờ người thi hộ theo quy định tại điểm d, khoản 4, Điều 35 của Quy chế này hoặc bị kỷ luật ở mức xóa tên khỏi danh sách sinh viên",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p36_001",
+        "score": 0.8174,
+        "page": 36,
+        "is_hit": false,
+        "metadata": {
+          "chapter": "Chương VI",
+          "chunk_len": 500,
+          "page": 36,
+          "document_id": "vnu_uet_quy_che_3626",
+          "source": "Quy-che-3626-digital.pdf",
+          "category": "Quyen_va_nghia_vu_sinh_vien"
+        },
+        "text_snippet": "quyết định đình chỉ thi.\nCác hình thức kỷ luật nói trên do cán bộ coi thi lập biên bản, thu tang vật và\nghi rõ hình thức..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p36_000",
+        "score": 0.7764,
+        "page": 36,
+        "is_hit": false,
+        "metadata": {
+          "chunk_len": 500,
+          "chapter": "Chương VI",
+          "category": "Quyen_va_nghia_vu_sinh_vien",
+          "document_id": "vnu_uet_quy_che_3626",
+          "source": "Quy-che-3626-digital.pdf",
+          "page": 36
+        },
+        "text_snippet": "36\n\ncủa bài thi học phần đó.\nc) Đình chỉ thi: Áp dụng đối với sinh viên vi phạm một trong các lỗi:\n- Đã bị cảnh cáo một ..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p47_000",
+        "score": 0.7664,
+        "page": 47,
+        "is_hit": true,
+        "metadata": {
+          "chapter": "Chương VIII",
+          "page": 47,
+          "chunk_len": 500,
+          "document_id": "vnu_uet_quy_che_3626",
+          "source": "Quy-che-3626-digital.pdf",
+          "category": "Tot_nghiep"
+        },
+        "text_snippet": "47\n\nc) Bị kỷ luật lần thứ hai vì lý do thi hộ hoặc nhờ người thi hộ theo quy định\ntại điểm d, khoản 4, Điều 35 của Quy c..."
+      }
+    ]
+  },
+  {
+    "question_id": "q16",
+    "split": "test",
+    "question": "Sinh viên có kết quả học tập toàn khóa đạt hạng xuất sắc hoặc giỏi sẽ bị hạ một hạng tốt nghiệp trong những trường hợp nào?",
+    "gold_page": 49,
+    "gold_evidence": "Những sinh viên có kết quả học tập toàn khóa đạt hạng xuất sắc hoặc giỏi, hạng tốt nghiệp sẽ bị hạ một hạng nếu bị kỷ luật từ mức cảnh cáo trở lên trong thời gian học hoặc khối lượng của các học phần phải học lại vượt quá 5% so với tổng số tín chỉ quy định cho toàn chương trình.",
+    "filter": {
+      "chapter": "Chương VIII"
+    },
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p49_002",
+        "score": 0.8564,
+        "page": 49,
+        "is_hit": true,
+        "metadata": {
+          "page": 49,
+          "chunk_len": 499,
+          "chapter": "Chương VIII",
+          "document_id": "vnu_uet_quy_che_3626",
+          "source": "Quy-che-3626-digital.pdf",
+          "category": "Tot_nghiep"
+        },
+        "text_snippet": "ứ hai.\n7. Những sinh viên có kết quả học tập toàn khóa đạt hạng xuất sắc hoặc giỏi,\nhạng tốt nghiệp sẽ bị hạ một hạng nế..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p26_004",
+        "score": 0.7637,
+        "page": 26,
+        "is_hit": false,
+        "metadata": {
+          "page": 26,
+          "source": "Quy-che-3626-digital.pdf",
+          "category": "To_chuc_dao_tao",
+          "document_id": "vnu_uet_quy_che_3626",
+          "chapter": "Chương III",
+          "chunk_len": 407
+        },
+        "text_snippet": "liệu\ntham khảo cho sinh viên.\n3. Chuyển sinh viên đang học chương trình đào tài năng, chất lượng cao sang\nhọc chương trì..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p41_001",
+        "score": 0.7583,
+        "page": 41,
+        "is_hit": false,
+        "metadata": {
+          "page": 41,
+          "document_id": "vnu_uet_quy_che_3626",
+          "chunk_len": 499,
+          "category": "Kiem_tra_danh_gia",
+          "chapter": "Chương VII",
+          "source": "Quy-che-3626-digital.pdf"
+        },
+        "text_snippet": "t tuần sau khi các Hội đồng chấm khóa luận, đồ án tốt nghiệp\nhoàn thành nhiệm vụ.\n3. Điểm khoá luận, đồ án tốt nghiệp ho..."
+      }
+    ]
+  },
+  {
+    "question_id": "q17",
+    "split": "test",
+    "question": "Điểm trung bình chung tích lũy của khóa học tối thiểu để sinh viên chương trình đào tạo chuẩn được xét công nhận tốt nghiệp là bao nhiêu?",
+    "gold_page": 48,
+    "gold_evidence": "Điểm trung bình chung tích lũy của khóa học đạt từ 2,00 trở lên. Đối với chương trình đào tạo tài năng, chất lượng cao đạt từ 2,50 trở lên;",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p49_000",
+        "score": 0.8094,
+        "page": 49,
+        "is_hit": false,
+        "metadata": {
+          "chunk_len": 500,
+          "page": 49,
+          "chapter": "Chương VIII",
+          "source": "Quy-che-3626-digital.pdf",
+          "category": "Tot_nghiep",
+          "document_id": "vnu_uet_quy_che_3626"
+        },
+        "text_snippet": "49\n\n3. Bằng tốt nghiệp đại học được cấp theo ngành học, trong bằng có ghi rõ\ntên ngành học, hình th ức đào tạo, chương t..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p49_001",
+        "score": 0.7944,
+        "page": 49,
+        "is_hit": false,
+        "metadata": {
+          "document_id": "vnu_uet_quy_che_3626",
+          "chapter": "Chương VIII",
+          "category": "Tot_nghiep",
+          "chunk_len": 499,
+          "source": "Quy-che-3626-digital.pdf",
+          "page": 49
+        },
+        "text_snippet": "Giỏi: Điểm trung bình chung tích lũy từ 3,20 đến 3,59\nc) Khá: Điểm trung bình chung tích lũy từ 2,50 đến 3,19\nd) Trung b..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p48_000",
+        "score": 0.7768,
+        "page": 48,
+        "is_hit": true,
+        "metadata": {
+          "source": "Quy-che-3626-digital.pdf",
+          "page": 48,
+          "category": "Tot_nghiep",
+          "chapter": "Chương VIII",
+          "document_id": "vnu_uet_quy_che_3626",
+          "chunk_len": 499
+        },
+        "text_snippet": "48\n\nc) Tích lũy đủ số tín chỉ quy định trong chương trình đào tạo;\nd) Điểm trung bình chung tích lũy của khóa học đạt từ..."
+      }
+    ]
+  },
+  {
+    "question_id": "q18",
+    "split": "test",
+    "question": "Sinh viên chưa đạt chuẩn đầu ra ngoại ngữ nhưng đã hết thời gian tối đa được phép học được trở về trường hoàn thành trong thời hạn bao lâu?",
+    "gold_page": 49,
+    "gold_evidence": "trong thời hạn 3 năm tính từ ngày phải ngừng học, được trở về đơn vị đào tạo hoàn thành các điều kiện còn thiếu và đề nghị xét công nhận tốt nghiệp.",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p49_004",
+        "score": 0.6919,
+        "page": 49,
+        "is_hit": true,
+        "metadata": {
+          "page": 49,
+          "category": "Tot_nghiep",
+          "chunk_len": 367,
+          "document_id": "vnu_uet_quy_che_3626",
+          "source": "Quy-che-3626-digital.pdf",
+          "chapter": "Chương VIII"
+        },
+        "text_snippet": "viên chưa hoàn thành học phần giáo dục quốc phòng - an ninh, học\nphần giáo dục thể chất, kỹ năng bổ trợ hoặc chưa đạt ch..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p14_002",
+        "score": 0.6283,
+        "page": 14,
+        "is_hit": false,
+        "metadata": {
+          "chunk_len": 500,
+          "category": "To_chuc_dao_tao",
+          "document_id": "vnu_uet_quy_che_3626",
+          "chapter": "Chương III",
+          "source": "Quy-che-3626-digital.pdf",
+          "page": 14
+        },
+        "text_snippet": "t quả học tập được bảo lưu, nhưng không vượt quá thời gian thiết kế\ncủa chương trình đào tạo chính quy tương ứng;\nd) Thờ..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p48_000",
+        "score": 0.6125,
+        "page": 48,
+        "is_hit": false,
+        "metadata": {
+          "source": "Quy-che-3626-digital.pdf",
+          "document_id": "vnu_uet_quy_che_3626",
+          "chunk_len": 499,
+          "chapter": "Chương VIII",
+          "category": "Tot_nghiep",
+          "page": 48
+        },
+        "text_snippet": "48\n\nc) Tích lũy đủ số tín chỉ quy định trong chương trình đào tạo;\nd) Điểm trung bình chung tích lũy của khóa học đạt từ..."
+      }
+    ]
+  },
+  {
+    "question_id": "q19",
+    "split": "test",
+    "question": "Bản chính bằng tốt nghiệp đại học được cấp bao nhiêu lần?",
+    "gold_page": 49,
+    "gold_evidence": "Bản chính bằng tốt nghiệp chỉ cấp một lần, không cấp lại.",
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p49_000",
+        "score": 0.8068,
+        "page": 49,
+        "is_hit": true,
+        "metadata": {
+          "document_id": "vnu_uet_quy_che_3626",
+          "chunk_len": 500,
+          "page": 49,
+          "chapter": "Chương VIII",
+          "source": "Quy-che-3626-digital.pdf",
+          "category": "Tot_nghiep"
+        },
+        "text_snippet": "49\n\n3. Bằng tốt nghiệp đại học được cấp theo ngành học, trong bằng có ghi rõ\ntên ngành học, hình th ức đào tạo, chương t..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p48_003",
+        "score": 0.6296,
+        "page": 48,
+        "is_hit": false,
+        "metadata": {
+          "chapter": "Chương VIII",
+          "document_id": "vnu_uet_quy_che_3626",
+          "source": "Quy-che-3626-digital.pdf",
+          "page": 48,
+          "chunk_len": 499,
+          "category": "Tot_nghiep"
+        },
+        "text_snippet": "cấp phó của thủ trưởng đơn vị đào tạo làm Chủ tịch, đại diện lãnh\nđạo Phòng Đào tạo làm ủy viên thư ký và một số ủy viên..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p47_002",
+        "score": 0.6211,
+        "page": 47,
+        "is_hit": false,
+        "metadata": {
+          "chunk_len": 500,
+          "document_id": "vnu_uet_quy_che_3626",
+          "source": "Quy-che-3626-digital.pdf",
+          "category": "Tot_nghiep",
+          "page": 47,
+          "chapter": "Chương VIII"
+        },
+        "text_snippet": "nh viên được xếp thành các loại sau:\na) Xuất sắc: Điểm trung bình chung học kỳ từ 3,60 đến 4,00\nb) Giỏi: Điểm trung bình..."
+      }
+    ]
+  },
+  {
+    "question_id": "q20",
+    "split": "test",
+    "question": "Hội đồng xét tốt nghiệp cho sinh viên hoàn thành chương trình đào tạo được tổ chức định kỳ mỗi năm mấy lần và vào những tháng nào?",
+    "gold_page": 48,
+    "gold_evidence": "Định kỳ mỗi năm 4 lần (tháng 3, tháng 6 và tháng 7, tháng 9, tháng 12), thủ trưởng đơn vị đào tạo ra quyết định thành lập Hội đồng xét tốt nghiệp cho sinh viên đã hoàn thành chương trình đào tạo",
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hits": [
+      {
+        "rank": 1,
+        "chunk_id": "A_p48_003",
+        "score": 0.7784,
+        "page": 48,
+        "is_hit": false,
+        "metadata": {
+          "chapter": "Chương VIII",
+          "document_id": "vnu_uet_quy_che_3626",
+          "page": 48,
+          "source": "Quy-che-3626-digital.pdf",
+          "category": "Tot_nghiep",
+          "chunk_len": 499
+        },
+        "text_snippet": "cấp phó của thủ trưởng đơn vị đào tạo làm Chủ tịch, đại diện lãnh\nđạo Phòng Đào tạo làm ủy viên thư ký và một số ủy viên..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "A_p39_003",
+        "score": 0.7605,
+        "page": 39,
+        "is_hit": false,
+        "metadata": {
+          "source": "Quy-che-3626-digital.pdf",
+          "category": "Kiem_tra_danh_gia",
+          "document_id": "vnu_uet_quy_che_3626",
+          "page": 39,
+          "chapter": "Chương VII",
+          "chunk_len": 500
+        },
+        "text_snippet": "inh viên đủ điều kiện dự thi và phân phòng thi.\n5. Thủ trưởng đơn vị đào tạo quy định cụ thể quy trình coi thi và chấm t..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "A_p48_002",
+        "score": 0.7515,
+        "page": 48,
+        "is_hit": true,
+        "metadata": {
+          "document_id": "vnu_uet_quy_che_3626",
+          "page": 48,
+          "source": "Quy-che-3626-digital.pdf",
+          "chunk_len": 500,
+          "category": "Tot_nghiep",
+          "chapter": "Chương VIII"
+        },
+        "text_snippet": "h đào tạo tương ứng.\n3. Sinh viên không đủ điều kiện tốt nghiệp được cấp giấy chứng nhận điểm\ncác học phần trong chương ..."
+      }
+    ]
+  }
+]

@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed,500,50,"source,page,chapter",none,paraphrase-multilingual-MiniLM-L12-v2,Fixed-size chunking baseline,6/15,9/15,3/5,5/5,"Ingest 30.66s, 225 chunks"
+B,paragraph,800,0,"source,page,chapter",none,paraphrase-multilingual-MiniLM-L12-v2,Structure-aware chunking preserves coherence,8/15,11/15,4/5,5/5,"Ingest 40.59s, 195 chunks"
+C,paragraph,800,0,"source,page,chapter",chapter filter,paraphrase-multilingual-MiniLM-L12-v2,Metadata filtering narrows scope and eliminates out-of-chapter distractors,8/15,11/15,4/5,5/5,"Ingest 40.59s, 195 chunks"

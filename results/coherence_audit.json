@@ -1,0 +1,119 @@
+{
+  "avg_score": {
+    "A": 1.2,
+    "B": 2.0,
+    "C": 2.0
+  },
+  "details": [
+    {
+      "pos": 1,
+      "page": 1,
+      "target": "Điều 1: Phạm vi điều chỉnh",
+      "score_A": 1,
+      "reason_A": "Cửa sổ 500 ký tự cắt ngang giữa Khoản 2 Điều 1, thiếu phần quy định về đơn vị áp dụng ở Khoản 3.",
+      "score_B": 2,
+      "reason_B": "Giữ trọn vẹn toàn bộ Điều 1 với cả 3 khoản trong cùng một khối ngữ cảnh.",
+      "score_C": 2,
+      "reason_C": "Cùng chunk với B, giữ trọn vẹn cấu trúc Điều 1."
+    },
+    {
+      "pos": 2,
+      "page": 3,
+      "target": "Điều 4: Hình thức dạy học & định nghĩa tín chỉ",
+      "score_A": 1,
+      "reason_A": "Cắt ngang phần giải thích giờ tín chỉ thực hành và tự học.",
+      "score_B": 2,
+      "reason_B": "Bao quát trọn vẹn Điều 4 từ Khoản 1 đến Khoản 3.",
+      "score_C": 2,
+      "reason_C": "Cùng chunk với B, trọn vẹn ngữ nghĩa."
+    },
+    {
+      "pos": 3,
+      "page": 10,
+      "target": "Điều 11: Cấu trúc chương trình đào tạo",
+      "score_A": 1,
+      "reason_A": "Bị cắt đứt ở khối kiến thức giáo dục chuyên nghiệp, mất các định nghĩa phụ.",
+      "score_B": 2,
+      "reason_B": "Khối đoạn hoàn chỉnh, nêu đầy đủ cấu trúc khối kiến thức chung và chuyên nghiệp.",
+      "score_C": 2,
+      "reason_C": "Giống B, trọn vẹn ý nghĩa."
+    },
+    {
+      "pos": 4,
+      "page": 14,
+      "target": "Điều 17: Thời gian tối đa hoàn thành khóa học",
+      "score_A": 1,
+      "reason_A": "Bị chia tách giữa Điều 16 và đầu Điều 17, câu văn bị ngắt đoạn.",
+      "score_B": 2,
+      "reason_B": "Tách riêng từng điều khoản độc lập, Điều 17 có đầy đủ chủ thể và thời hạn quy định.",
+      "score_C": 2,
+      "reason_C": "Giống B, rõ ràng mạch lạc."
+    },
+    {
+      "pos": 5,
+      "page": 17,
+      "target": "Điều 21: Khối lượng tín chỉ đăng ký học kỳ",
+      "score_A": 1,
+      "reason_A": "Bị cắt ở giữa đoạn quy định tín chỉ tối thiểu và tối đa (2/3 và 3/2).",
+      "score_B": 2,
+      "reason_B": "Bao trọn vẹn Khoản 1 Điều 21 với đầy đủ cả cận dưới và cận trên.",
+      "score_C": 2,
+      "reason_C": "Giống B, câu từ nguyên vẹn."
+    },
+    {
+      "pos": 6,
+      "page": 23,
+      "target": "Điều 26: Học cùng lúc hai chương trình",
+      "score_A": 1,
+      "reason_A": "Bị cắt ngang ở điểm c điều kiện điểm số 2.5 và 2.0.",
+      "score_B": 2,
+      "reason_B": "Chứa trọn vẹn điều kiện học cùng lúc 2 chương trình đào tạo.",
+      "score_C": 2,
+      "reason_C": "Giống B."
+    },
+    {
+      "pos": 7,
+      "page": 31,
+      "target": "Điều 32: Điểm thưởng nghiên cứu khoa học",
+      "score_A": 2,
+      "reason_A": "May mắn rơi trọn trong một cửa sổ 500 ký tự.",
+      "score_B": 2,
+      "reason_B": "Khối đoạn hoàn chỉnh về mục đích và nguyên tắc tính điểm thưởng NCKH.",
+      "score_C": 2,
+      "reason_C": "Giống B."
+    },
+    {
+      "pos": 8,
+      "page": 34,
+      "target": "Điều 34: Trách nhiệm của cố vấn học tập",
+      "score_A": 1,
+      "reason_A": "Bị cắt dở giữa điểm a và b về trách nhiệm của giáo viên chủ nhiệm / cố vấn.",
+      "score_B": 2,
+      "reason_B": "Khối đoạn chứa đầy đủ các điểm a, b, c, d về trách nhiệm cố vấn học tập.",
+      "score_C": 2,
+      "reason_C": "Giống B."
+    },
+    {
+      "pos": 9,
+      "page": 45,
+      "target": "Điều 43: Bảng quy đổi điểm chữ sang thang 4.0",
+      "score_A": 1,
+      "reason_A": "Bảng quy đổi bị ngắt giữa chừng, mất các điểm D+, D và F.",
+      "score_B": 2,
+      "reason_B": "Bảng điểm quy đổi từ A+ đến F được giữ nguyên vẹn cùng công thức tính GPA.",
+      "score_C": 2,
+      "reason_C": "Giống B."
+    },
+    {
+      "pos": 10,
+      "page": 48,
+      "target": "Điều 46: Điều kiện công nhận tốt nghiệp",
+      "score_A": 2,
+      "reason_A": "Đoạn liệt kê điều kiện tốt nghiệp nằm trọn trong chunk.",
+      "score_B": 2,
+      "reason_B": "Toàn bộ các điều kiện từ a đến h của Điều 46 được bao hàm đầy đủ.",
+      "score_C": 2,
+      "reason_C": "Giống B."
+    }
+  ]
+}

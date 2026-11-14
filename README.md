@@ -45,3 +45,24 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+---
+
+## Hướng dẫn tái lập & Chạy Pipeline
+
+1. **Cài đặt thư viện**:
+   ```bash
+   pip install pypdf chromadb sentence-transformers
+   ```
+
+2. **Chạy Pipeline Ingestion & Benchmark**:
+   ```bash
+   python -m starter.src.run
+   ```
+
+Toàn bộ kết quả, trace Top-3 và các bảng audit sẽ được tự động xuất vào:
+* Traces Top-3: `results/trace_strategy_*.json`
+* Tổng hợp Metrics: `results/summary_metrics.json`
+* Nhật ký thực nghiệm: `artifacts/experiment_log.csv`
+* Báo cáo cá nhân: `report/individual/2A202604018_TruongVanHai.md`
+

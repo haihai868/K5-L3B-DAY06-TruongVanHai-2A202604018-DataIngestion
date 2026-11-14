@@ -1,0 +1,76 @@
+{
+  "avg_score": {
+    "A": 1.6,
+    "B": 1.8,
+    "C": 1.8
+  },
+  "score_distribution": {
+    "A": {
+      "0": 0,
+      "1": 2,
+      "2": 3
+    },
+    "B": {
+      "0": 0,
+      "1": 1,
+      "2": 4
+    },
+    "C": {
+      "0": 0,
+      "1": 1,
+      "2": 4
+    }
+  },
+  "details": [
+    {
+      "qid": "q16",
+      "topic": "Hạ một bậc tốt nghiệp",
+      "score_A": 2,
+      "reason_A": "Chunk Top-1 chứa đầy đủ điều kiện kỷ luật và tỷ lệ học lại > 5%.",
+      "score_B": 2,
+      "reason_B": "Chunk Top-1 chứa đầy đủ điều kiện hạ bậc tốt nghiệp trọn vẹn.",
+      "score_C": 2,
+      "reason_C": "Chunk Top-1 chứa trọn vẹn, và Top-3 100% thuộc Chương VIII loại bỏ hoàn toàn nhiễu."
+    },
+    {
+      "qid": "q17",
+      "topic": "Điểm TBC tích lũy tốt nghiệp",
+      "score_A": 1,
+      "reason_A": "Top-1 nói về hạng tốt nghiệp, đến Top-3 mới có mức điểm 2.00 để tốt nghiệp.",
+      "score_B": 1,
+      "reason_B": "Top-1 nói về xếp loại bằng, Top-3 mới chứa câu quy định điểm tích lũy 2.00.",
+      "score_C": 1,
+      "reason_C": "Top-1 nói về xếp loại bằng, Top-3 chứa câu quy định điểm tích lũy 2.00."
+    },
+    {
+      "qid": "q18",
+      "topic": "Thời hạn hoàn thành chuẩn ngoại ngữ",
+      "score_A": 2,
+      "reason_A": "Top-1 chứa đầy đủ quy định thời hạn 3 năm cho sinh viên hoàn thành điều kiện.",
+      "score_B": 2,
+      "reason_B": "Top-1 chứa trọn vẹn quy định thời hạn 3 năm kèm đối tượng áp dụng.",
+      "score_C": 2,
+      "reason_C": "Top-1 chứa trọn vẹn quy định thời hạn 3 năm kèm đối tượng áp dụng."
+    },
+    {
+      "qid": "q19",
+      "topic": "Số lần cấp bản chính bằng tốt nghiệp",
+      "score_A": 2,
+      "reason_A": "Top-1 chứa câu khẳng định bản chính chỉ cấp 1 lần, không cấp lại.",
+      "score_B": 2,
+      "reason_B": "Top-1 chứa nguyên vẹn Khoản 4 Điều 47 quy định chỉ cấp 1 lần.",
+      "score_C": 2,
+      "reason_C": "Top-1 chứa nguyên vẹn Khoản 4 Điều 47 quy định chỉ cấp 1 lần."
+    },
+    {
+      "qid": "q20",
+      "topic": "Kỳ xét tốt nghiệp định kỳ",
+      "score_A": 1,
+      "reason_A": "Top-1 nói về thành phần chủ tịch hội đồng xét tốt nghiệp, Top-3 mới có 4 lần/năm.",
+      "score_B": 2,
+      "reason_B": "Top-1 chứa trọn vẹn Khoản 1 Điều 47 với định kỳ 4 lần/năm (tháng 3, 6-7, 9, 12).",
+      "score_C": 2,
+      "reason_C": "Top-1 chứa trọn vẹn Khoản 1 Điều 47 với định kỳ 4 lần/năm (tháng 3, 6-7, 9, 12)."
+    }
+  ]
+}
